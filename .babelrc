@@ -1,0 +1,14 @@
+{
+  "presets": ["env", "react", "stage-0"],
+  "plugins": [
+    "transform-es2015-modules-commonjs",
+    "transform-class-properties",
+    "transform-object-rest-spread",
+    "transform-runtime"
+  ],
+  "env": {
+    "production": {
+      "presets": ["minify"]
+    }
+  }
+}
